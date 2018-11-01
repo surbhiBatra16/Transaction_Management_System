@@ -1,0 +1,145 @@
+body {
+    background: #d6d6d6;
+}
+
+.alert-msg {
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    padding: 10px 20px;
+    background: teal;
+}
+
+.user-action {
+    display: flex;
+}
+
+.action-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-info {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    padding: 9px 15px;
+
+}
+
+.app-title {
+    flex-grow: 1;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.tPrint {
+    font-size: 24px;
+}
+
+.componnent-to-print {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+.item-desc {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.form {
+    min-width: 300px;
+    margin: 10% auto;
+    max-width: 400px;
+    border: 1px solid gray;
+    box-shadow: 0 3px 8px gray;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.form .heading {
+    background: teal;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form .content {
+    padding: 15px;
+}
+
+
+.form button {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+.action-box input {
+    padding: 8px 15px;
+    font-size: 18px;
+    height: 40px;
+}
+
+.feature {
+    display: flex;
+    color: teal;
+    margin: 10px;
+}
+
+.feature-btn {
+    display: flex;
+}
+
+.action-button button {
+    margin: 10px;
+    flex-grow: 1;
+    color: teal;
+}
+
+.send-mail {
+    margin: 40px;
+    min-width: 400px;
+}
+
+.disabled {
+    color: rgba(0, 0, 0, .2) !important;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
